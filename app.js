@@ -22,13 +22,13 @@ const container = document.getElementById('react-container');
 // ReactDOM.render(React.createElement(ReactContainer),container);
 
 //Uncomment for progression 4
-// class ReactContainer extends React.Component{
-//     render(){
-//         return (
-//             <div>Hello! Welcome to Kalvium   
-//              <div>This is babel</div>
-//          </div>
-//         )
-//     }
-// }
-// ReactDOM.render(<ReactContainer />, container);
+class ReactContainer extends React.Component{
+    render(){
+        return (
+            <div>Hello! Welcome to Kalvium   
+             <div>This is babel</div>
+         </div>
+        )
+    }
+}
+ReactDOM.render(<ReactContainer />, container);
